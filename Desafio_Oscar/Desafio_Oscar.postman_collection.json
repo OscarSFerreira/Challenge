@@ -1,0 +1,297 @@
+{
+	"info": {
+		"_postman_id": "3d703f6d-6e94-4d19-87d5-317ce86b2750",
+		"name": "Desafio_Oscar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "VeryBigSum",
+			"item": [
+				{
+					"name": "GetVeryBigSum",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7144/api/VeryBigSum",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7144",
+							"path": [
+								"api",
+								"VeryBigSum"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PostVeryBigSum",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\"1086008886 1001230056 1088804303 1030056309 100959005\"",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7144/api/VeryBigSum",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7144",
+							"path": [
+								"api",
+								"VeryBigSum"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetVeryBigSumId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7144/api/VeryBigSum/3fa85f64-5717-4562-b3fc-2c964f66afc8",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7144",
+							"path": [
+								"api",
+								"VeryBigSum",
+								"3fa85f64-5717-4562-b3fc-2c964f66afc8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteVeryBigSum",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7144/api/VeryBigSum/ba5d55ec-443d-40b1-ae00-a2bab28dfb20",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7144",
+							"path": [
+								"api",
+								"VeryBigSum",
+								"ba5d55ec-443d-40b1-ae00-a2bab28dfb20"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DiagonalSum",
+			"item": [
+				{
+					"name": "GetDiagonalSum",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7144/api/DiagonalSum",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7144",
+							"path": [
+								"api",
+								"DiagonalSum"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PostDiagonalSum",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\"11 2 4,4 5 6,10 8 -12\"",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7144/api/DiagonalSum",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7144",
+							"path": [
+								"api",
+								"DiagonalSum"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetDiagonalSymId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7144/api/DiagonalSum/3972e750-2992-45a3-be2e-161bc327c127",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7144",
+							"path": [
+								"api",
+								"DiagonalSum",
+								"3972e750-2992-45a3-be2e-161bc327c127"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteDiagonalSum",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7144/api/DiagonalSum/f0987e3c-0e3f-4135-b847-86d4340ed0b6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7144",
+							"path": [
+								"api",
+								"DiagonalSum",
+								"f0987e3c-0e3f-4135-b847-86d4340ed0b6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "RatioProb",
+			"item": [
+				{
+					"name": "GetRatio",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7144/api/Ratio",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7144",
+							"path": [
+								"api",
+								"Ratio"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PostRatio",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\"-4 3 -9 0 4 1\"",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7144/api/Ratio",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7144",
+							"path": [
+								"api",
+								"Ratio"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetRatioById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7144/api/Ratio/3fa85f64-5717-4562-b3fc-2c963f66aba6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7144",
+							"path": [
+								"api",
+								"Ratio",
+								"3fa85f64-5717-4562-b3fc-2c963f66aba6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteRatioProb",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7144/api/Ratio/3fa85f64-5717-4562-b3fc-2c963f66afa6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7144",
+							"path": [
+								"api",
+								"Ratio",
+								"3fa85f64-5717-4562-b3fc-2c963f66afa6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
